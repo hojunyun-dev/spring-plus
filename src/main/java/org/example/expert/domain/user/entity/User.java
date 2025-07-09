@@ -20,7 +20,7 @@ public class User extends Timestamped {
     private String password;
     @Enumerated(EnumType.STRING)
     private UserRole userRole;
-    @Column(nullable = false) //추가
+    @Column(nullable = false) //nickname필드 추가
     private String nickname;
 
     public User(String email, String password, UserRole userRole) {

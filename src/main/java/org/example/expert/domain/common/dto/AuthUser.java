@@ -11,9 +11,10 @@ public class AuthUser {
     private final UserRole userRole;
     private String nickname; //추가
 
-    public AuthUser(Long id, String email, UserRole userRole) {
+    public AuthUser(Long id, String email, UserRole userRole, String nickname) {
         this.id = id;
         this.email = email;
         this.userRole = userRole;
+        this.nickname = nickname;//추가
     }
 }
