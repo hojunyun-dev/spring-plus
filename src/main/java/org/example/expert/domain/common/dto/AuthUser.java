@@ -9,6 +9,7 @@ public class AuthUser {
     private final Long id;
     private final String email;
     private final UserRole userRole;
+    private String nickname; //추가
 
     public AuthUser(Long id, String email, UserRole userRole) {
         this.id = id;
